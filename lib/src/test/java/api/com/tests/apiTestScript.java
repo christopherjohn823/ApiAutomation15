@@ -295,7 +295,7 @@ public class apiTestScript {
 		
 		postPojo pojo = new postPojo();
 		pojo.setName("test");    // we never return any value in setter methods
-		pojo.setJob("coding");
+		pojo.setJob("testing");
 		Response resp = given()
 					   .body(pojo)
 				       .header("Content-type", "application/json") 
