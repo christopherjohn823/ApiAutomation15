@@ -281,7 +281,7 @@ public class apiTestScript {
 		
 		//int actualStatusCode = resp.statusCode();
 		assertEquals(resp.statusCode(), 201);	
-		//System.out.println(resp.body().asString()); // try an avoid sysout as when running a method in an actual project, you may 
+		System.out.println(resp.body().asString()); // try an avoid sysout as when running a method in an actual project, you may 
 													// use it for debugging purpose but as per coding standards one should avoid it
 	
 		//In this test case we are also learning how to follow best coding standards, the commented lines of code are examples of this
